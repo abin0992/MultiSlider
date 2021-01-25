@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "MultiSlider", targets: ["MultiSlider"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/yonat/SweeterSwift", from: "1.0.2"),
+        .package(url: "https://github.com/abin0992/SweeterSwift", .branch("ab-SPM-fix")),
         .package(url: "https://github.com/yonat/AvailableHapticFeedback", from: "1.0.2"),
     ],
     targets: [
